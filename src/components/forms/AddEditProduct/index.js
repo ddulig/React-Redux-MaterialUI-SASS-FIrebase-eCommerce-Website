@@ -128,6 +128,8 @@ const AddEditProduct = props => {
 	}, [acceptedFiles]);
 
 	const handleClose = success => {
+		success = typeof success === 'boolean' ? success : false;
+
 		setOpen(false);
 		resetForm();
 		props.handleAddEditEnd(action, success);

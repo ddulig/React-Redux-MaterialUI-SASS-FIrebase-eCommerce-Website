@@ -48,6 +48,7 @@ const Products = props => {
 	const [renderProducts, setRenderProducts] = useState([]);
 
 	const handleAddStart = () => {
+		dispatch(resetProduct());
 		setDoAddEdit(true);
 	};
 
