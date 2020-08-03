@@ -1,0 +1,37 @@
+@import './../../../global.scss';
+
+.viewMainContainer {
+	width: 100%;
+	text-align: left;
+
+	.backContainer {
+		padding-bottom: 20px;
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imageSection {
+		padding: 2% 2% 2% 0;
+
+		.image {
+			width: 100%;
+		}
+	}
+
+	.formSection {
+		padding: 2%;
+		text-align: left;
+
+		.fieldName {
+			//font-style: italic;
+			font-weight: bold;
+		}
+
+		div div {
+			margin-bottom: 10px;
+		}
+	}
+}

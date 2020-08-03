@@ -1,0 +1,6 @@
+@import './../../../global.scss';
+
+.addProdDialog > div:nth-of-type(3) > div:first-child {
+	min-width: 300px;
+	max-width: 600px;
+}

@@ -1,0 +1,31 @@
+@import './../../global.scss';
+
+.loginMainContainer {
+	height: 100vh;
+
+	.image {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.paper {
+		margin: 120px 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.avatar {
+			margin: 10px;
+			background-color: $secondary-color;
+		}
+
+		.form {
+			margin: 10px;
+		}
+
+		.submit {
+			margin: 20px 0px;
+		}
+	}
+}

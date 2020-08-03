@@ -1,0 +1,56 @@
+@import './../../global.scss';
+
+.servicesMainContainer {
+	width: 100%;
+	height: 400px;
+	padding: 10px 5px 0 5px;
+	flex-grow: 1;
+
+	.servicesContainer {
+		height: 100%;
+
+		.services {
+			height: 100%;
+			position: relative;
+			z-index: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $tertiary-color;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				position: absolute;
+				z-index: -1;
+				opacity: 0.4;
+				padding: 0 2%;
+			}
+
+			.middleText {
+				color: $tertiary-color;
+			}
+
+			.middleImage {
+				opacity: 2;
+			}
+		}
+	}
+}
+
+@media (max-width: $small-screen-width) {
+	.servicesMainContainer {
+		height: 400px;
+
+		.servicesContainer {
+			height: 33%;
+
+			.services {
+				img {
+					padding: 1% 2%;
+				}
+			}
+		}
+	}
+}

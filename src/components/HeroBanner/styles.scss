@@ -1,0 +1,53 @@
+@import './../../global.scss';
+
+.heroBannerContainer {
+	flex-grow: 1;
+	position: relative;
+
+	.heroBanner {
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 10px;
+	}
+
+	.textContainer {
+		position: absolute;
+		top: 125px;
+		left: 6.5%;
+		z-index: 1;
+		height: 55%;
+		width: 60%;
+
+		.heading {
+			font-weight: $heading-font-weight;
+		}
+
+		.buttonContainer {
+			padding-top: 20px;
+			position: absolute;
+			right: 0px;
+
+			Button {
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: $small-screen-width) {
+	.heroBannerContainer {
+		.heroBanner {
+			background-position: center;
+		}
+
+		.textContainer {
+			width: 70%;
+			left: 15%;
+
+			.heading {
+				font-size: $heading-font-size-mobile;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+$primary-color: #0d0d0d;
+$secondary-color: #d9a404;
+$tertiary-color: #f6f6f6;
+$quaternary-color: #f2b705;
+$quinary-color: #bf7e04;
+
+$header-size: 63px;
+$heading-font-weight: 1000;
+$heading-font-size-mobile: 50px;
+
+$side-nav-width: 250px;
+$side-nav-width-small: 55px;
+
+$primary-font-family: 'Ubuntu', sans-serif;
+$secondary-font-family: 'Raleway', sans-serif;
+
+$small-screen-width: 600px;
+$small-screen-height: 550px;
+$medium-screen-width: 960px;
+
+@mixin sectionAttributes {
+	padding-top: 90px;
+}
+
+@mixin pageAttributes {
+	padding: calc(5% + #{$header-size}) 5%;
+	width: 100%;
+}
+
+@mixin subheadingAttributes {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	background-color: $tertiary-color;
+}

@@ -1,0 +1,6 @@
+const growingConditionsTypes = {
+	FETCH_GROWING_CONDITIONS_START: 'FETCH_GROWING_CONDITIONS_START',
+	SET_GROWING_CONDITIONS: 'SET_GROWING_CONDITIONS'
+};
+
+export default growingConditionsTypes;

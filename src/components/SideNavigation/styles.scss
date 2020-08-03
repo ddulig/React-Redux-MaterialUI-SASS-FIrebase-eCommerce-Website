@@ -1,0 +1,32 @@
+@import './../../global.scss';
+
+.sideNavMainConatainer {
+	margin-top: $header-size;
+	height: calc(100% - #{$header-size});
+	width: $side-nav-width;
+
+	.paperContainer {
+		height: 100%;
+		position: fixed;
+		width: $side-nav-width;
+		//transition: 0.5s ease;
+	}
+}
+
+@media (max-width: $small-screen-width) {
+	.sideNavMainConatainer {
+		width: $side-nav-width-small;
+
+		.paperContainer {
+			width: $side-nav-width-small;
+
+			.options {
+				width: $side-nav-width-small;
+
+				.optionText span {
+					visibility: hidden;
+				}
+			}
+		}
+	}
+}

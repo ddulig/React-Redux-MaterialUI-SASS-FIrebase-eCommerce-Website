@@ -1,0 +1,56 @@
+@import './../../global.scss';
+
+.contactUsContainer {
+	@include sectionAttributes;
+	height: 600px;
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+
+	.contactUsDetails {
+		padding: 75px 5% 100px 0;
+
+		.details {
+			font-family: $secondary-font-family;
+		}
+	}
+
+	.secondaryContainer {
+		padding-left: 5%;
+		text-align: right;
+
+		.subheading {
+			@include subheadingAttributes;
+		}
+
+		.subheadingText {
+			font-family: $secondary-font-family;
+			padding-top: 20px;
+		}
+	}
+
+	.background {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 40%;
+	}
+}
+
+@media (max-width: 800px) {
+	.contactUsContainer {
+		.contactUsDetails {
+			padding-top: 40px;
+		}
+
+		.secondaryContainer {
+			.subheadingText {
+				font-size: 20px;
+			}
+		}
+
+		.background {
+			height: 30%;
+		}
+	}
+}

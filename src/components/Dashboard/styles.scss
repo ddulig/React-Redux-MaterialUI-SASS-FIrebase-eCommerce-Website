@@ -1,0 +1,8 @@
+@import './../../global.scss';
+
+.dashboardMainContainer {
+	margin-top: $header-size;
+	height: calc(100% - #{$header-size});
+	position: sticky;
+	width: 100%;
+}

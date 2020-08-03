@@ -1,0 +1,66 @@
+@import './../../../global.scss';
+
+.addProdDialog > div:nth-of-type(3) > div:first-child {
+	min-width: 300px;
+	max-width: 600px;
+
+	.hidden {
+		display: none;
+	}
+
+	.featured {
+		color: grey;
+		margin: 8px 0px 4px 0px;
+		width: 100%;
+		justify-content: flex-end;
+	}
+
+	.dialogActions {
+		padding: 16px 24px;
+	}
+
+	.fileUploadContainer {
+		width: 100%;
+		height: 250px;
+		border: 2px dashed grey;
+		margin: 8px 0px 4px 0px;
+		position: relative;
+		background-color: $tertiary-color;
+
+		.dropZone {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+
+			&:hover {
+				cursor: pointer;
+			}
+
+			.fileUploadInput {
+				display: block;
+			}
+		}
+
+		.fileUploadSubContainer {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.text {
+				text-align: center;
+			}
+		}
+
+		.fileUploadImage {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			z-index: 1;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+@import './../../../global.scss';
+
+.viewMainContainer {
+	width: 100%;
+	text-align: left;
+
+	.backContainer {
+		padding-bottom: 20px;
+	}
+
+	.imageSection {
+		padding: 2% 2% 2% 0;
+
+		.image {
+			width: 100%;
+		}
+	}
+
+	.formSection {
+		padding: 2%;
+		text-align: left;
+
+		.priceContainer {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.divider {
+			margin: 20px 0px;
+		}
+
+		.iconContainer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.icon {
+				font-size: 80px;
+			}
+		}
+
+		.fieldName {
+			//font-style: italic;
+			font-weight: bold;
+		}
+	}
+}

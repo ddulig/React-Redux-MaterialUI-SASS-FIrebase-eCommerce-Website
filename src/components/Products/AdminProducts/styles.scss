@@ -1,0 +1,36 @@
+@import './../../../global.scss';
+
+.productsMainContainer {
+	.addProduct {
+		padding: 10px;
+		text-align: right;
+	}
+
+	.productContainer {
+		padding: 10px;
+
+		.product {
+			height: 255px;
+
+			.cardContent {
+				height: 60px;
+				padding: 10px;
+				overflow: hidden;
+			}
+		}
+	}
+}
+
+@media (min-width: $medium-screen-width) {
+	.productsMainContainer {
+		.productContainer {
+			.product {
+				height: 300px;
+
+				.cardImage {
+					height: 190px;
+				}
+			}
+		}
+	}
+}
