@@ -107,6 +107,12 @@ const Signin = props => {
 						</Grid>
 					</form>
 				</div>
+
+				<div className='credentials'>
+					<Typography variant='body1'>NOTE:</Typography>
+					<Typography variant='body2'>Email: admin@plantito.com.au</Typography>
+					<Typography variant='body2'>Password: admin123</Typography>
+				</div>
 			</Grid>
 		</Grid>
 	);
