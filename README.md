@@ -1,6 +1,6 @@
 ## Introduction
 
-This is a eCommerce website project created using the following tools:
+This is an eCommerce website project created using the following tools:
 
 - React
 - Material UI
