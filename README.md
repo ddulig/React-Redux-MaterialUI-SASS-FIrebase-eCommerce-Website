@@ -7,3 +7,10 @@ This is an eCommerce website project created using the following tools:
 - SASS
 - Redux
 - Firebase
+
+Completed:
+- Customer view products
+- Admin view products
+- Admin edit product
+- Admin delete product
+- Admin add product
