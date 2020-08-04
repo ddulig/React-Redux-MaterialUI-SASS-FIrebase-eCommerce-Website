@@ -1,4 +1,4 @@
-## Introduction
+## Introduction (Still in progress)
 
 This is an eCommerce website project created using the following tools:
 
